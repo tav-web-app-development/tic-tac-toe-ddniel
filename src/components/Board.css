@@ -1,0 +1,33 @@
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 70px);
+  grid-template-rows: repeat(3, 70px);
+}
+
+.square {
+  background: white;
+  outline: 0.5px solid #999;
+  border: 0.5px solid #999;
+  font-weight: bold;
+  font-size: 40px;
+}
+#restart-button {
+  margin-top: 1rem;
+}
+
+.resetBtn{
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  font-size: large;
+}
+
+.boardContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
